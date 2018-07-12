@@ -5,7 +5,7 @@ curl https://nixos.org/nix/install | sh
 
 source ~/.bashrc
 
-nix-env -i ghc cabal-intall
+nix-env -i ghc cabal-install
 
 # Run GHCI
 nix-shell shell.nix
