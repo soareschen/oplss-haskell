@@ -1,0 +1,20 @@
+name:                oplss-haskell
+version:             0.1.0.0
+-- synopsis:
+-- description:
+license:             ISC
+license-file:        LICENSE
+author:              Soares Chen
+maintainer:          soares.chen@gmail.com
+-- copyright:
+category:            Development
+build-type:          Simple
+extra-source-files:  ChangeLog.md
+cabal-version:       >=1.10
+
+executable main
+  main-is:             Main.hs
+  build-depends:       base, accelerate, llvm-hs, accelerate-llvm-native
+  hs-source-dirs:      src
+  default-language:    Haskell2010
+  other-modules:
